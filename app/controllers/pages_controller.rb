@@ -10,7 +10,8 @@ class PagesController < ApplicationController
     end
 
     def contest
-      @header = "This is the about pages"
+      @header = "This is the contest page"
+      redirect_to "/welcome"
     end
 
     def kitten
